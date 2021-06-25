@@ -4,16 +4,11 @@ import { Card } from "react-native-elements";
 import { Text } from "react-native";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   static navigationOptions = {
     title: "Contact Us",
   };
 
   render() {
-    const { navigate } = this.props.navigation;
     return (
       <ScrollView>
         <Card wrapperStyle={{ margin: 20 }} title="Contact Information">
